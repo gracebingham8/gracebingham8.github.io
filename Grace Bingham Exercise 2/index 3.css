@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(to bottom, rgba(237, 201, 207, 0.49), rgba(251, 212, 139, 0.52), rgba(242, 242, 175, 0.52))
+}
+
+h1{
+    font-family: "Courgette", Helvetica, sans-serif;
+    font-size: 55px;
+      text-align: center;
+        border-style:dotted;
+        border-width: 5px;
+        border-color: rgb(246, 91, 200);
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
+h3{
+    font-family: 'Courgette', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+#p1{
+    font-family: 'PlayFair Display', Courier, monospace;
+    font-size: 25px;
+}
+#img1{
+    padding-left: 500px;
+}
+
+#img2{
+padding-left: 600px;
+}
+
+#pp2{
+    font-family: 'PlayFair Display', Courier, monospace;
+    font-size: 25px;
+}
+
+#pp3{
+    font-family: 'PlayFair Display', Courier, monospace;
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+
+#img3{
+    margin-left: 450px;
+    border-width: 10px;
+    border-style: solid;
+    color: rgb(238, 244, 171);
+}
+
+#img4{
+    margin-left: 500px;
+    border-width: 10px;
+    border-style: solid;
+    color: rgb(240, 203, 124);
+    
+}
+
+#list1{
+    float: left;
+    font-family: 'Courgette', Courier, monospace;
+    font-size: 25px;
+}
+
+#list11{
+    float: left;
+    margin-left: 30px;
+    border-width: 15px;
+    border-style: dotted;
+    color: rgb(72, 184, 232);
+}
+ 
+#list2{
+    float: left;
+    font-family: 'Courgette', Courier, monospace;
+    font-size: 25px;
+   margin-left: 300px;
+}
+
+#list22{
+    float: left;
+    margin-left: 60px;
+    margin-right: 200px;
+    border-width: 15px;
+    border-style: dotted;
+    color: rgb(72, 184, 232);
+}
+
+#list3{
+    font-family: 'Courgette', Courier, monospace;
+    font-size: 25px;
+    margin-left: 1600px;
+}
+
+#list33{
+    float: left;
+    margin-left: 500px;
+    border-width: 15px;
+    border-style: dotted;
+    color: rgb(72, 184, 232);
+}
+
+#pp5{
+    font-family: 'PlayFair Display', Courier, monospace;
+    font-size: 25px;
+}
+
+#img5{
+    padding-left: 40px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+#video{
+    padding-left: 500px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
