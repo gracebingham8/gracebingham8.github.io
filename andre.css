@@ -1,0 +1,127 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+h1{
+ 
+   font-family: 'Bungee', Courier, monospace;
+   font-size: 90px;
+   text-align: center;
+}
+
+h1:hover{
+font-size: 120px;
+}
+
+
+#graffiti{
+background: url(images/graffiti.jpg);
+height: 250px; 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: rgb(229, 247, 246);
+}
+
+#MUSICIAN{
+  font-family: 'Kaushan Script', Courier, monospace;
+text-align: right;
+  font-size: 30px;
+  color: white;
+}
+
+#QUEENS{
+   font-family: 'Kaushan Script', Courier, monospace;
+   text-align: left;
+       font-size: 30px;
+       color: white;
+          text-decoration: none;
+            color: inherit;
+             text-decoration: transparent;
+                    color: white;
+  
+}
+
+#row{
+    display: flex;               
+justify-content: space-between;       
+padding: 6px;  
+margin-right: 5px;
+}
+
+#p1{
+  font-family: 'Kaushan Script', Courier, monospace;
+  font-size: 25px;
+  float: right;
+  width: 700px;
+  text-align: center;
+  padding-top: 90px;
+  padding-right: 70px;
+  color: white;
+}
+
+#img1{
+padding-left: 150px;
+padding-top: 100px;
+width: 300px;
+ transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+#img1:hover{
+    transform: scale(1.1);
+  cursor:pointer;  
+}
+
+#train{
+width: 700px;
+height: 500px;
+margin-top: 200px;
+background-image: url(images/trainandre.png);
+align-items: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 500px;
+margin-left: 100px;
+}
+
+#train:hover{
+    background: url(images/djdeck.gif);
+align-items: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 700px;
+height: 500px;
+padding-left: 500px;
+margin-left: 100px;
+}
+
+#journal{
+  transition: transform 0.3s ease;
+    transform-origin: left center;
+    float: right;
+    padding-right: 50px;
+padding-top: 0;
+}
+
+#journal:hover{
+  transform: scale(1.1);
+  cursor:pointer;  
+}
+
+#end{
+align-items: center;
+}
+
+
+#mem{
+  background:url(images/20png.png) ;
+    width: 1325px;
+   justify-content: center;
+  align-items: center;
+    display: flex;
+  flex-direction: column;
+margin-left: 50px;
+opacity: 0.6;
+}

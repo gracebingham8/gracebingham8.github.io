@@ -1,0 +1,121 @@
+body{
+   background-color: rgb(243, 217, 221);
+}
+
+h1{
+  
+    font-family: 'Courgette', Courier, monospace;
+    font-size: 90px;
+    text-align: center;
+}
+
+h1:hover{
+     font-family: 'playfair display', Courier, monospace;
+}
+
+
+#lace{
+background: url(images/lace.jpg);
+height: 250px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(234, 59, 155);
+}
+
+#DREAMER{
+    font-family: 'playfair display', Courier, monospace;
+text-align: right;
+    font-size: 30px;
+}
+
+#BROOKLYN{
+     font-family: 'playfair display', Courier, monospace;
+     text-align: left;
+         font-size: 30px;
+            text-decoration: none;
+              text-decoration: transparent;
+              color: black;
+}
+
+#row{
+      display: flex;               
+  justify-content: space-between;       
+  padding: 5px;  
+  margin-right: 5px;
+}
+
+#p1{
+    font-family: 'Playfair Display', Courier, monospace;
+    font-size: 20px;
+    float: left;
+    width: 700px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#collage{
+    float: right;
+margin-right: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+#sketch{
+     transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+#sketch:hover{
+    transform: scale(1.1);
+  cursor:pointer;  
+}
+
+#coffee{
+background: url(images/cade.png);
+width: 1360px;
+ justify-content: center;
+  align-items: center;
+    display: flex;
+  flex-direction: column;
+margin-left: 100px;
+height: 550px;
+}
+
+#rosa{
+    margin-top: 355px;
+    margin-left: 950px;
+    transition: transform 0.3s ease;
+    transform-origin: left center;
+}
+
+#rosa:hover{
+    margin-top: 355px;
+    margin-left: 950px;
+transform: scale(1.1);
+  cursor:pointer;  
+}
+
+#PARSONS1{
+    font-family: 'Courgette', Courier, monospace;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(225, 108, 186);
+}
+#parsons{
+width: 750px;
+height: 850px;
+    background-image: url(images/parsons1.png);
+align-items: center;
+margin-left: 400px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#parsons:hover{
+    background: url(images/parsons2.png);
+}
+

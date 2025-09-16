@@ -1,0 +1,32 @@
+body{
+    background-image: url(images/updated\ map.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#QUEENS{
+  float: right;
+  font-family:'Archivo Black', Courier, monospace;
+  color: rgb(41, 84, 240);
+font-size: 20px;
+margin-right: 200px;
+margin-top: 90px;
+}
+
+#MANHATTAN{
+    float: right;
+  font-family:'Archivo Black', Courier, monospace;
+  color: rgb(41, 84, 240);
+font-size: 20px;
+padding-right: 700px;
+}
+
+#BROOKLYN{
+    float: right;
+  font-family:'Archivo Black', Courier, monospace;
+  color: rgb(41, 84, 240);
+font-size: 20px;
+padding-right: 210px;
+}
+

@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(230, 226, 203);
+}
+
+h1{
+ 
+    font-family: 'Lavishly Yours', Courier, monospace;
+    font-size: 90px;
+    text-align: center;
+    color: rgb(177, 100, 177);
+ }
+ 
+ h1:hover{
+color: rgb(203, 152, 203);
+ }
+ 
+ 
+ #books{
+ background: url(images/oldbooks.jpg);
+ height: 250px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ #ARCHIVIST{
+   font-family: 'Caveat', Courier, monospace;
+ text-align: right;
+   font-size: 30px;
+   color: rgb(0, 0, 0);
+ }
+ 
+ #MANHATTAN{
+    font-family: 'Caveat', Courier, monospace;
+    text-align: left;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+              color: black;
+ }
+ 
+ #row{
+     display: flex;               
+ justify-content: space-between;       
+ padding: 6px;  
+ margin-right: 5px;
+ }
+
+ #p1{
+  font-family: 'Caveat', Courier, monospace;
+  font-size: 25px;
+  float: right;
+  width: 700px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 70px;
+  color: black;
+ }
+
+ #jazz{
+  padding-left: 80px;
+padding-top: 30px;
+width: 500px;
+ transition: transform 0.3s ease;
+    transform-origin: center;
+ }
+
+
+#memory{
+  padding-left: 50px;
+}
+
+#cafe{
+  float: right;
+  width: 700px;
+  transition: transform 0.3s ease;
+    transform-origin: left center;
+}
+
+#cafe:hover{
+  transform: scale(1.1);
+  cursor:pointer;  
+}
+
+#vinyl{
+  float: left;
+  width: 700px;
+    transition: transform 0.3s ease;
+    transform-origin: left center;
+}
+
+#vinyl:hover{
+  transform: scale(1.1);
+  cursor:pointer;  
+}
+
+
+
+#mem{
+  background:url(images/16.png) ;
+    width: 1325px;
+   justify-content: center;
+  align-items: center;
+    display: flex;
+  flex-direction: column;
+margin-left: 50px;
+
+
+}
+
+#vinyls{
+  padding-left: 40px;
+}
+
+
+#words{
+   
+       transition: transform 0.9s ease-in-out;
+    transform-origin: center;
+      opacity: 1;
+        transform: translateY(0);
+}
+
+#words:hover{
+  cursor:pointer;  
+        opacity: 0.5;
+         transform: translateY(70px);
+}

@@ -1,0 +1,65 @@
+body{
+    background-image: url(images/index\ station.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-position: top;
+    background-size: cover;  
+}
+
+h1{
+    font-family: 'Archivo Black', Courier, monospace;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#p1{
+   background-color: rgb(141, 165, 141);
+   float: left;
+  color: rgb(0, 0, 0);
+  font-family: 'Archivo Black', Courier, monospace;
+  font-size: 20px;
+  margin-top: 60px;
+padding: 20px;
+margin-left: 70px;
+border-radius: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+#p2{
+    background-color: rgb(153, 183, 153);
+    float: right;
+   color: rgb(0, 0, 0);
+   font-family: 'Archivo Black', Courier, monospace;
+ padding: 20px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 200px;
+ border-radius: 10px;
+   width: 400px;
+   text-align: center;
+}
+
+#p3{
+    background-color: rgb(107, 142, 107);
+   color: rgb(0, 0, 0);
+   font-family: 'Archivo Black', Courier, monospace;
+ padding: 20px;
+ margin-left: 100px;
+ border-radius: 10px;
+   width: 400px;
+   text-align: center;
+   margin-top: 350px;
+}
+
+#begin{
+    font-family: 'Archivo Black', Courier, monospace;
+    color: rgb(255, 255, 255);
+align-items: center;
+text-align: center;
+    font-size: 70px;
+    margin-top: 500px;
+    padding-left: 480px;
+    padding-bottom: 70px;
+}
